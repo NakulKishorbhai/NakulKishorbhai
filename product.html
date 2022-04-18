@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Nakul Kishorbhai Joshi </title>
+<link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+
+<script src="product.js">
+</script>
+
+<header>
+	<h2>WEB222-Final Assessment</h2>
+
+	<div class="navbar">
+		<a href="honesty.html">HOME PAGE</a>
+		<a href="product.html">INFORMATION OF PRODUCT</a>
+		<a href="reflection.html">REFLECTION ON COURSE</a>
+	</div>
+
+
+</header>
+
+<section>
+	<div id="error"> </div>
+	<article>
+		<form name="signup" action="https://httpbin.org/post" method="post" onsubmit="return validateForm()">
+			<table>
+				<tr>
+					<td> <label for="product_id">Product ID:</label> </td>
+					<td> <input type="text" id="product_id" name="product_id" required> </td>
+				</tr>
+
+				<tr>
+					<td> <label for="product_desc">Product Description:</label> </td>
+					<td> <textarea id="product_desc" name="product_desc" required> </textarea> </td>
+				</tr>
+
+				<tr>
+					<td> <label for="price">Price:</label> </td>
+					<td> <input type="text" id="price" name="price" required> </td>
+				</tr>
+
+				<tr>
+					<td> <label for="user_name">Supplier Username:</label> </td>
+					<td> <input type="text" id="user_name" name="user_name" required> </td>
+				</tr>
+
+				<tr>
+					<td> <label>Supplier Status:</label> </td>
+					<td>
+						<input type="checkbox" id="new_supplier" name="new_supplier">
+						<label for="new_supplier"> New Supplier</label><br>
+
+						<input type="checkbox" id="signed" name="signed">
+						<label for="signed"> Contract Signed</label><br>
+
+						<input type="checkbox" id="quality_test" name="quality_test">
+						<label for="quality_test"> Quality Tested</label>
+
+					</td>
+				</tr>
+
+				<tr>
+					<td> <label for="email">Supplier Email:</label> </td>
+					<td> <input type="email" id="email" name="email" required> </td>
+				</tr>
+
+				<tr>
+					<td> <button type="submit" value="Submit">Submit</button> </td>
+					<td> <button type="reset" value="Reset">Reset</button> </td>
+				</tr>
+			</table>
+			<input type="hidden" name="lastName" id="lastName" value="Joshi" />
+			<input type="hidden" name="studentId" id="studentId" value="115342214" />
+
+		</form>
+
+	</article>
+
+
+
+</section>
+
+</body>
+</html>
