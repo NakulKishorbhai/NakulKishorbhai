@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Constantia;
+}
+
+header {
+	background-color: #ff6a00;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	border-radius: 0px;
+	text-decoration: underline;
+}
+
+article {
+  float: right;
+  padding: 20px;
+  width: 70%;
+  background-color: #000000;
+  height: 500px;
+  border-radius: 0px;
+  font-size: 17px;
+  color: red;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+td {
+	margin: auto;
+}
+
+footer {
+  background-color: #1abc9c;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  border-radius: 25px;
+}
+
+#error
+{
+	float: left;
+	padding: 20px;
+	width: 30%;
+	background-color: #000000;
+	height: 500px;
+	border-radius: 0px;
+	color: red;
+}
+
+.navbar a {
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  background-color:black;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
